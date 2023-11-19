@@ -1,20 +1,23 @@
-import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
+import MenuGarcom from './src/screens/Garcom';
+import MesasGarcom from './src/screens/Garcom/verificaMesas';
+import PedidosGarcom from './src/screens/Garcom/verificaPedidos';
+import MenuGestor from './src/screens/Gestor';
+import MesasGestor from './src/screens/Gestor/verificaMesas';
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+//     <MenuGarcom/>
+//     <MesasGarcom/>
+//     <PedidosGarcom/>
+//     <MenuGestor/>
+    <MesasGestor/>    
   );
 }
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
+    backgroundColor: '#ff0000',
   },
 });
